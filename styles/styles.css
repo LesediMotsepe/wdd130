@@ -7,7 +7,7 @@ nav {
 nav a{
     color:white;
     display:block;
-    padding:20 px;
+    padding:20px;
 }
 
 h1{
@@ -23,7 +23,7 @@ img{
 }
 
 p{
-    padding:  10 px;
+    padding:  10px;
 }
 main {
     max-width: 840px;
@@ -59,6 +59,7 @@ footer{
     padding:0;
     box-sizing: border-box;
 }
+
 /*Class selectors*/
 
 .box {
