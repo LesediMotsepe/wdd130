@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('./fontawesome-free-6.6.0-desktop/svgs/brands');
 
 :root {
     /* 43bccd-d1c8e1-153243-284b63-fcb97d */
@@ -38,7 +39,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.fa-icon-linkedin{
+    font-size: x-small;
+}
 a {
     text-decoration: none;
 }
@@ -95,7 +98,7 @@ article {
 
 .hero article img {
     float: right;
-    height: 200px;
+    height: 100px;
     width: auto;
     border-radius: 10px;
 }
@@ -105,6 +108,21 @@ article p {
     line-height: 1.5;
     color: #333;
     margin-bottom: 20px;
+}
+.footer{
+display: flex;
+justify-content: space-between;
+
+
+
+}
+.social-icons {
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    display: flex;
+
+   
 }
 
 .contact { 
@@ -188,6 +206,7 @@ header{
 
 img.column {
     width:  100%;
+    height: 100%;
     grid-column: 2;
 }
 
@@ -196,20 +215,29 @@ h2{
 }
 
 .adventure{
-    width: 50px;
-    height: 40px;
+    width: 170px;
+    height: 170px;
     display: flex;
 
 
 }
+.team{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
 
+}
 .team img{
     width: 270px;
     height: 400px;
-    display: inline;
-    margin-right: 20px;
-    padding: 40px;
+    /*display: inline;*/
+    margin-left: 20px;
+    padding: 10px;
     
 }
-
+.team p{
+    font-size: 18px;
+    align-items: left;
+    
+}
 
