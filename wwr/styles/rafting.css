@@ -169,11 +169,7 @@ input[type=submit]{
 input[type=submit]:hover {
     background-color: #43bccd;
   }
-.signup{
-    background-color: rgba(255, 255, 255, 0.5);
-    
-    
-}
+
   
   
 .container{
@@ -195,9 +191,13 @@ header{
 }
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 2fr 2fr ;
     padding: 10px;
+   
   }
+.grid-item{
+    justify-items: auto;
+}
 
 
 .history{
@@ -265,5 +265,15 @@ h2{
     content: "";
     display: table;
     clear: both;
+}
+
+.signup {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    align-content: center;
 }
 
