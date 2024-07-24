@@ -47,8 +47,9 @@ aside img {
 }
 p{ padding:0;}
 
-footer{margin: 15px;
-border-top: 1px solid #000;
+footer{
+    margin: 15px;
+ border-top: 1px solid #000;
 text-align: center;
 }
 
