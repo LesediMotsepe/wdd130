@@ -34,7 +34,7 @@ h6 {
     font-family: var(--font-family);
     color: var(--primary-color);
 }
-h4{
+h2{
     text-align: center;
 }
 
@@ -70,9 +70,9 @@ nav a:hover {
 }
 
 .hero img {
-    width: 100%;
+    width: 1200px;
     display: block;
-    height: auto;
+    height: 600px;
 }
 
 .hero h1 {
@@ -86,7 +86,11 @@ nav a:hover {
     text-align: center;
 
 }
-
+.history{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
 
 article {
     position: absolute;
@@ -111,16 +115,35 @@ article p {
     color: #333;
     margin-bottom: 20px;
 }
+
 .footer{
 display: flex;
 justify-content: space-between;
 
-
-
 }
+
 .social-icons {
     width: 24px;
     height: 24px;
     margin: 10px;
     display: flex;
+}
+.gallery{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:1rem;
+    padding: 1rem;
+}
+
+.image img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+
+.image figcaption{
+    font-size: 0.9rem;
+    color: #666;
+    padding: 0.5rem 0;
+
 }
