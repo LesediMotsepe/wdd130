@@ -53,11 +53,11 @@ nav {
     grid-column: 2;
     display: flex;
     justify-content: space-around;
-    padding: 2em 0;
+    padding: 2rem 0;
 }
 
 nav a {
-    padding: 1em;
+    padding: 1rem;
     font-size: 1.2rem; 
     color: var(--nav-hover-link-color);
 }
@@ -145,5 +145,93 @@ justify-content: space-between;
     font-size: 0.9rem;
     color: #666;
     padding: 0.5rem 0;
+
+}
+.contact { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2em;
+}
+.contact form {
+    margin: 20px;
+}
+.map {
+   
+    background:#fcb97d; 
+    margin:10px;
+}
+iframe{
+    border: none;
+    padding: 0px;
+    width: 590px;
+    height: 600px;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+ 
+input[type=submit]{
+    background-color: #153243;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #43bccd;
+  }
+
+  
+  
+.container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.signup {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    align-content: center;
+}
+.btn{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px; 
+    background-color: #284b63;
+}
+.team{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:1rem;
+    padding: 1rem;
+
+
+}
+.team img{
+   
+    width: 190px;
+    height:220px;
+   
+}
+.team figcaption{
+align-items: end;
 
 }
