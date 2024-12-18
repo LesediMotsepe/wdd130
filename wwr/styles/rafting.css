@@ -47,10 +47,21 @@ body {
 a {
     text-decoration: none;
 }
-
+.logo{
+    
+    grid-column: 1;
+    
+    background-color: var(--nav-background-color);
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    padding: 0rem;
+    
+}
 nav {
     background-color: var(--nav-background-color);
     grid-column: 2;
+    justify-self: end;
     display: flex;
     justify-content: space-around;
     padding: 2rem 0;
@@ -235,3 +246,61 @@ input[type=submit]:hover {
 align-items: end;
 
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    padding: 10px;
+   
+  }
+.grid-item{
+    justify-items: auto;
+}
+.column img{
+    width: 50%;
+    height:50%;
+} 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.trip-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.trip-table th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+  
+.trip-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+  
+.trip-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+  
+  .float-button {
+    position:absolute;
+    
+    top: 20px;
+    left: 20px;
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .float-button:hover {
+    background-color: #ccc;
+  }
